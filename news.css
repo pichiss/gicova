@@ -1,0 +1,99 @@
+.newsWrap{
+    text-align: center;
+    padding: 80px 0;
+}
+h2{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+table{
+    margin: 0 auto;
+}
+
+td{
+    border-bottom: 1px solid #ddd;
+    padding: 20px 40px;
+    font-size: 18px;
+}
+tr:first-child{
+    border-top: 2px solid #222;
+    border-bottom: 2px solid #222;
+}
+.newsTit{
+    width: 1000px;
+}
+.news_tit{
+    cursor: pointer;
+}
+.write_btn{
+    width: 70px; 
+    padding: 3px 0;
+    text-align: center;
+    border: 1px solid #F43403;
+    border-radius: 50px;
+    transition: 0.3s;
+    float: right;
+    margin: 20px;
+    background-color: #fff;
+    color: #F43403;
+}
+.write_btn p{
+    color: #F43403;
+}
+.write_btn:hover{
+    background-color: #F43403;
+    color: #fff;
+}
+.write_btn p:hover{
+    color: #fff;
+}
+.newsWriteWrap{
+    text-align: center;
+    padding: 100px 0;
+}
+label{
+    display: inline-block;
+    width: 200px;
+    align-items: baseline;
+}
+.newsTit input{
+    width: 1000px;
+    height: 50px;
+}
+.newsWriteWrap textarea{
+    display: inline-block;
+    width: 1000px;
+    height: 500px;
+    margin: 10px 0;
+    resize: none;
+}
+.NewsWriteBtn{
+    margin: 50px;
+    width: 100px;
+}
+
+.NewsDetailWrap{
+    padding: 100px 0;
+}
+.NewsDetailWrap h3{
+    border-top: 2px solid #000000 ;
+
+}
+.NewsDetailWrap pre{
+    border-bottom: 2px solid #222;
+    color: #222;
+    font-size: 22px;
+    padding: 20px 0;
+}
+.NewsDetailWrap p{
+    padding: 40px 0;
+    font-size: 20px;
+}
+.NewsDetailWrap button{
+    background-color: #fff;
+    color: #F43403;
+}
+.NewsDetailWrap button:hover{
+    color: #fff;
+}
