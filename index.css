@@ -5,6 +5,8 @@
   font-weight: 400;
   font-style: normal;
 }
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
 .w100{
   max-width: 100%;
   margin: 0 auto;
@@ -29,19 +31,35 @@ header{
 .hdWrap{
   align-items: center;
   justify-content: space-between;
-  padding: 30px 0;
+  padding: 0px 50px 30px 50px;
+  transition: all 0.5s ease;
 }
 .hdWrap .nav_list a{
   color: #fff;
   font-size: 18px;
 }
+.hdWrap h1>a{
+  font-family: "Lalezar", system-ui;
+  font-size: 40px;
+  color: #fff;
+}
 
-.hdWrap2{
+.down{
   height: 83px;
-  background-color: #fff;
+  background-color: #ffffff93;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 0;
+  padding: 0px 50px 30px 50px;
+  transition: all 0.5s ease;
+}
+.down .nav_list a{
+  color: #222;
+  font-size: 18px;
+}
+.down h1>a{
+  font-family: "Lalezar", system-ui;
+  font-size: 40px;
+  color: #F43403;
 }
 h1>a>img{
   max-width: 345px; height: 30px;
@@ -49,10 +67,7 @@ h1>a>img{
 .nav_list{
   gap: 50px;
 }
-.hdWrap2 .nav_list a{
-  color: #222;
-  font-size: 18px;
-}
+
 h3{
   font-size: 48px;
 }
@@ -186,6 +201,8 @@ select{
 #location{
   width: 562px; height: 52px;
   border: 1px solid #ddd;
+  background-color: #fff;
+  color: #222;
 }
 .find{
   display: inline-block;
@@ -214,7 +231,7 @@ select{
 }
 /* sec6 start */
 .sec6{
-  background-image: url(../img/sec5-bg.jpg);
+  background-image: url(./img/sec5-bg.jpg);
   padding: 100px 400px;
 }
 .deliveryWrap{
