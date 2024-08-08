@@ -31,7 +31,7 @@ header{
 .hdWrap{
   align-items: center;
   justify-content: space-between;
-  padding: 0px 50px 30px 50px;
+  padding: 10px 50px;
   transition: all 0.5s ease;
 }
 .hdWrap .nav_list a{
@@ -45,11 +45,10 @@ header{
 }
 
 .down{
-  height: 83px;
   background-color: #ffffff93;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 50px 30px 50px;
+  padding: 10px 50px;
   transition: all 0.5s ease;
 }
 .down .nav_list a{
@@ -360,8 +359,8 @@ footer{
   background-color: #F8F8F8;
  color: #666;
  width: 100%;
- height: 300px;
- padding: 80px 300px;
+ height: auto;
+ padding: 80px 350px;
 }
 footer ul li{
   margin: 5px 10px;
